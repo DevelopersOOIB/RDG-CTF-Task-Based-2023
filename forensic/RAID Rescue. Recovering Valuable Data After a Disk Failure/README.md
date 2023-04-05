@@ -73,7 +73,7 @@ mdadm: /dev/md0 has been started with 3 drives.
 $ sudo mkdir /mnt/mpoint && sudo mount /dev/md0 /mnt/mpoint
 ```
 После перехода в соответствующее расположение находим первый флаг (image.png) и ряд других ненужных файлов:
-![](files/raid_flag_1.png)
+![](../files/raid_flag_1.png)
 
 Но согласно условиям таска есть и второй флаг. Попробуем покарвить содержимое устройства на предмет удаленных файлов. Воспользуемся инструментом [foremost](https://linux.die.net/man/1/foremost):
 ```bash
@@ -114,7 +114,7 @@ Foremost finished at Sun Mar 26 05:50:48 2023
 
 Помимо уже доступных ранее файлов в явном виде удалось восстановить некий pdf-файл. После его открытия получаем второй флаг:
 
-![](files/raid_flag_2.png)
+![](../files/raid_flag_2.png)
 
 ### Flags
 
