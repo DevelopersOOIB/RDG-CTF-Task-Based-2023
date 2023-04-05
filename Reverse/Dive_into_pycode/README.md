@@ -187,7 +187,7 @@ Type "help", "copyright", "credits" or "license" for
 Полученный пропатченный **pyc** код пробуем декомпилировать.<br>Видим, что
 декомпиляция прошла успешно и далее можем проанализировать исходный код:
 
-```sh
+```python
 > pycdc Shuffle_patched.pyc
 # Source Generated with Decompyle++
 # File:Shuffle_patched.pyc (Python 2.7)
