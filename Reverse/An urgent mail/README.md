@@ -41,3 +41,6 @@ powershell.exe -nop -c "[string]'$global:progressPreference='+[char]0x27+'silent
 1) В пункте 4 вместо скачивания строки мы можем прописать в **hosts** какой-нибудь **"живой" IP адрес** для домена **eytqrlibfsmeconx.xyz**, а **IP-адрес** нашей машины выставить в **192.168.3.78**.
 
 После этого программа должна сама выдать нам флаг.
+
+# Flag
+RDG{RatBatRuleZZ}
