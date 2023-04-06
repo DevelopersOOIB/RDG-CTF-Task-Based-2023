@@ -14,7 +14,7 @@
 Reverse
 </td>
 <td>
-<a href="Reverse/Adware&20Hater">Adware Hater</a><br>
+<a href="tree/main/Reverse/Adware%20Hater">Adware Hater</a><br>
 An urgent mail<br>
 Cheating academy<br>
 Clan<br>
