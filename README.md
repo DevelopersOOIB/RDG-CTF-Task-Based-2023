@@ -5,3 +5,25 @@
 
 # Здесь размещены все райтапы к таскам с соревнований
 
+<table>
+<tr>
+<td><b> Категория </td> <td><b> Таск </td>
+</tr>
+<tr>
+<td> 
+Reverse
+</td>
+<td>
+<a href="Reverse/Adware&20Hater">Adware Hater</a><br>
+An urgent mail<br>
+Cheating academy<br>
+Clan<br>
+Dive_into_pycode<br>
+Project<br>
+Project 2<br>
+Suspicious activity<br>
+To login or not to login<br>
+Welcome to my home
+</td>
+</tr>
+</table>
