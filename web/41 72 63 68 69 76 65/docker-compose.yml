@@ -1,0 +1,8 @@
+services:
+  php:
+    build: .
+    ports:
+      - 80:8080
+#    volumes:
+#      - ./html:/var/www/html
+#      - ./settings.ini:/etc/php81/conf.d/settings.ini

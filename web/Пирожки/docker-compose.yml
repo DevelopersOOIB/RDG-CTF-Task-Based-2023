@@ -1,0 +1,22 @@
+networks:
+  db:
+
+
+services:
+    php_back:
+        build: .
+        ports:
+          - 80:8080
+        networks:
+          - db
+    db:
+        image: mysql
+        volumes:
+          - ./127_0_0_1.sql:/docker-entrypoint-initdb.d/init.sql
+        environment:
+          MYSQL_USER: mysqlUserNotAccessable
+          MYSQL_PASSWORD: superEncryptedPassword123
+          MYSQL_DATABASE: miniBoss
+          MYSQL_RANDOM_ROOT_PASSWORD: 1
+        networks:
+          - db

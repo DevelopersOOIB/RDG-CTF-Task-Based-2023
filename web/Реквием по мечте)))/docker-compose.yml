@@ -1,0 +1,5 @@
+services:
+  html3:
+    build: .
+    ports:
+      - 80:8080

@@ -1,0 +1,6 @@
+services:
+  php-back:
+    build: .
+    ports:
+      - 80:8080
+
